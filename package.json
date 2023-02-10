@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "node_characterai": "^1.0.17",
+    "telegraf": "^3.38.0"
+  },
+  "name": "kurisu_bot",
+  "version": "1.0.0",
+  "description": "Makise kurisu chatbot with Character.ai",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "character.ai",
+    "telegram bot",
+    "chatbot"
+  ],
+  "author": "Yuu18id",
+  "license": "ISC"
+}
