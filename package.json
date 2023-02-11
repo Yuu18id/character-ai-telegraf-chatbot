@@ -3,9 +3,9 @@
     "node_characterai": "^1.0.17",
     "telegraf": "^3.38.0"
   },
-  "name": "kurisu_bot",
+  "name": "character ai telegraf chatbot",
   "version": "1.0.0",
-  "description": "Makise kurisu chatbot with Character.ai",
+  "description": "Telegram chatbot using Character.Ai",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
