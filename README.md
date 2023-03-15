@@ -3,7 +3,7 @@
 
 ## Intro
 
-Simple telegraf chatbot using node-characterai and telegraf.
+A Simple telegraf chatbot using `node-characterai` and `telegraf`.
 
 
 ## Access Token
