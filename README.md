@@ -22,4 +22,4 @@ This package requires a valid session token from Character AI. You can get one b
 
 You can find your character ID in the URL of a Character's chat page. For example, if you go to the chat page of the character `Test Character` you will see the URL `https://character.ai/chat/chat?char=5f7f9b9b9b9b9b9b9b9b9b9b`. The last part of the URL is the character ID:
 
-![Character ID](./assets/charIdExample.png
+![Character ID](./assets/charIdExample.png)
