@@ -24,6 +24,6 @@ You can find your character ID in the URL of a Character's chat page. For exampl
 
 ![Character ID](./assets/charIdExample.png)
 
-##Update
+## Update
 
 This is a project that uses `node-characterai` unofficial API to perform the chatbot. However, the API is experiencing a bug that prevents the chatbot from functioning correctly, Please wait for the upcoming update.
