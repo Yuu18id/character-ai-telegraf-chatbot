@@ -1,6 +1,5 @@
 const Telegraf = require('telegraf');
 const bot = new Telegraf(''); //bot token
-const { read } = require('fs');
 const CharacterAI = require('node_characterai');
 const characterAI = new CharacterAI();
 
