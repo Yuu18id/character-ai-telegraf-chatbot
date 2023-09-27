@@ -3,7 +3,7 @@
 
 ## Intro
 
-Simple telegram chatbot using `node-characterai` and `telegraf`.
+Simple telegram chatbot using [node_characterai](https://github.com/realcoloride/node_characterai) and [telegraf](https://github.com/telegraf/telegraf).
 
 
 ## Access Token
