@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "node_characterai": "^1.0.17",
-    "telegraf": "^3.38.0"
+    "node_characterai": "^1.2.7",
+    "telegraf": "^3.40.0"
   },
   "name": "character ai telegraf chatbot",
   "version": "1.0.0",
