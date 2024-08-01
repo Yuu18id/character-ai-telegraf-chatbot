@@ -8,15 +8,16 @@ Simple telegram chatbot using [node_characterai](https://github.com/realcoloride
 
 ## Access Token
 
-This package requires a valid session token from Character AI. You can get one by logging in to your Character AI account and copying the value of the `accessToken` in the `localStorage` of your browser.
+1. Open the Character.AI website in your browser on the OLD interface (https://old.character.ai/)
+2. Open the URL bar, write `javascript:` (case sensitive) and paste the following:
+```javascript
+(function(){let e=window.localStorage["char_token"];if(!e){alert("You need to log in first!");return;}let t=JSON.parse(e).value;document.documentElement.innerHTML=`<div><i><p>provided by node_characterai - <a href="https://github.com/realcoloride/node_characterai?tab=readme-ov-file#using-an-access-token">click here for more information</a></p></i><p>Here is your session token:</p><input value="${t}" readonly><p><strong>Do not share this with anyone unless you know what you are doing! This is your personal session token. If stolen or requested by someone you don't trust, they could access your account without your consent; if so, please close the page immediately.</strong></p><button id="copy" onclick="navigator.clipboard.writeText('${t}'); alert('Copied to clipboard!')">Copy session token to clipboard</button><button onclick="window.location.reload();">Refresh the page</button></div>`;localStorageKey=null;storageInformation=null;t=null;})();
+```
+3. The following page should appear:
+![Access_Token_Mobile](https://github.com/realcoloride/node_characterai/assets/108619637/2954586c-5dab-4e1c-820c-4e8528653d14)
 
-1. Open the Character AI website in your browser
-2. Open the developer tools `F12` and go to the `Application` tab.
-3. Go to the `Storage` section and click on `Local Storage`.
-4. Look for the `@@auth0spajs@@::dyD3gE281MqgISG7FuIXYhL2WEknqZzv::https://auth0.character.ai/::openid profile email offline_access` key.
-5. Open the body and copy the access token.
-
-![Access Token](./assets/accessTokenExample.png)
+4. Click the respective buttons to copy your access token or id token to your clipboard.
+---
 
 ## Character ID
 
