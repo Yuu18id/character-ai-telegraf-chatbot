@@ -14,7 +14,7 @@ const characterAI = new CharacterAI();
 
     bot.on('text', async(ctx) => {
         const response = await chat.sendAndAwaitResponse(ctx.message.text, true)
-        ctx.reply(response)
+        ctx.reply(response.text)
     });
 })();
 
